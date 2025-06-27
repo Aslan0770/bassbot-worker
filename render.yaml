@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: bassbot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bassbot.py
